@@ -1,15 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'lib-quarcore-badge',
+  selector: 'qc-ng2-quarcore-badge',
   template: `
     <p>
-      quarcore-badge works!
+      ng2-quarcore-badge works!
     </p>
   `,
   styles: []
 })
-export class QuarcoreBadgeComponent implements OnInit {
+export class Ng2QuarcoreBadgeComponent implements OnInit {
 
   constructor() { }
 

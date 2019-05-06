@@ -19,11 +19,11 @@
       "dom"
     ],
     "paths": {
-      "quarcore-badge": [
-        "dist/quarcore-badge"
+      "ng2-quarcore-badge": [
+        "dist/ng2-quarcore-badge"
       ],
-      "quarcore-badge/*": [
-        "dist/quarcore-badge/*"
+      "ng2-quarcore-badge/*": [
+        "dist/ng2-quarcore-badge/*"
       ]
     }
   }

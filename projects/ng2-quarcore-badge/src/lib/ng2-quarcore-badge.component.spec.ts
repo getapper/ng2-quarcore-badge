@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { QuarcoreBadgeComponent } from './quarcore-badge.component';
+import { Ng2QuarcoreBadgeComponent } from './ng2-quarcore-badge.component';
 
-describe('QuarcoreBadgeComponent', () => {
-  let component: QuarcoreBadgeComponent;
-  let fixture: ComponentFixture<QuarcoreBadgeComponent>;
+describe('Ng2QuarcoreBadgeComponent', () => {
+  let component: Ng2QuarcoreBadgeComponent;
+  let fixture: ComponentFixture<Ng2QuarcoreBadgeComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ QuarcoreBadgeComponent ]
+      declarations: [ Ng2QuarcoreBadgeComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(QuarcoreBadgeComponent);
+    fixture = TestBed.createComponent(Ng2QuarcoreBadgeComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
